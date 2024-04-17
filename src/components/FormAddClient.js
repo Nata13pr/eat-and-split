@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Button from "./Button";
 
-export default function FormAddFriend({ onAddFriend }) {
+export default function FormAddFriend({onAddFriend}) {
     const [name, setName] = useState("");
     const [image, setImage] = useState("https://i.pravatar.cc/48");
 
